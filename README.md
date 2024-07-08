@@ -1,15 +1,7 @@
-# image-conversion-cli
+# Image Conversion CLI
 
-To install dependencies:
+This is a simple CLI tool that converts images from one format to another. It uses Sharp package to convert images.
 
-```bash
-bun install
-```
+## How to use
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Simply place all images you want to convert in the `images` folder and run the script, it will convert all images in the folder to the desired format. The converted images will be saved in the `output` folder.
